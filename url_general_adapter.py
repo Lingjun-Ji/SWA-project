@@ -9,12 +9,8 @@ def generate_urls(user_inputs: dict, matched_orgs: list):
     from urllib.parse import urlparse, urljoin
     from datetime import datetime, timedelta
 
-    #API_KEY = "AIzaSyCQW2MME7ygfEHKovKgRxdZ3L2OtqqmXk8"
-    #CX = "132e16360cd7c4124"
-    API_KEY ="AIzaSyA2skrUBqaz373tToj0VA_OqR9Rp_NfUlQ"
-    CX = '0154ab7fd8c124b84'
-    #API_KEY = 'AIzaSyDXspj9RvJ67gAurHHgDd2KENPIqmjFLqk'
-    #CX = '771c12498eb0440ef'
+    API_KEY ="API_KEY"
+    CX = 'CX'
     MAX_RESULTS = 10
 
     def google_search(query, start_year, max_results=10):
